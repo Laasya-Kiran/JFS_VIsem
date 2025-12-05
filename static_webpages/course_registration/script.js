@@ -5,7 +5,6 @@ let totalBox = document.getElementById("total");
 subjects.forEach(item => {
     item.addEventListener("change", () => {
         let total = 0;
-
         subjects.forEach(sub => {
             if (sub.checked) {
                 total += parseInt(sub.value);

@@ -18,3 +18,80 @@ if you can add any files in local repository or you can change the existing file
 2. git add .
 3. git commit -m  "message"
 4. git push origin master
+------------------------------------------------------------------------------------------------
+
+1. to remove, the git the command is:
+rmdir
+
+2. to make a directory:
+mkdir .filename
+
+3. to hide a file:
+attrib +h filename
+
+4. to unhide a file:
+attrib -h filename
+
+5. to display hidden files:
+dir /a:h
+
+6. if the folder has files in it:
+rmdir /s/q 
+
+7. to display the content of a directory: dir
+
+8. to rename a folder:
+rename <previousfilename> <newfilename>
+ex: rename varshini laasya
+
+9. to display the content of a file:
+type <filename.>
+ex: type course_registration.html
+
+10. to forward the content of a file to other file:
+type filename>newfilename
+ex: type mayuri.txt>Anurag.txt
+
+11. how to delete that file: 
+del filename
+ex: del mayuri.txt
+
+12. how to delete all .txt files at a time:
+del *.txt
+del *.java
+del *.html
+
+13. to display all the files wid one letter
+ex: if the files are like a.txt
+			  b.txt
+			  ab.txt
+ and we want only a and b, then:
+ dir ?.txt    ---> we get: a.txt, b.txt
+ dir ??.txt   ---> we get: ab.txt
+ dir ???.txt  ---> we get: abc.txt
+
+14. to del all txt files: 
+del *.txt
+
+15. the list of wild characters:
+?   -> for single character
+*   -> for 0 or more characters
+
+16. to display all files wid all extensions 
+dir *.*
+
+17. to merge all file content in one file: 
+
+
+18. If you want to retrieve remote repository to local pc:
+git clone url
+<url of which file u wanna clone>
+
+
+
+
+
+
+
+
+
